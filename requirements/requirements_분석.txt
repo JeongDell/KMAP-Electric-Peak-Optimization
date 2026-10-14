@@ -1,0 +1,7 @@
+# 전처리 · 마진·경보 · 피크 분석 · 방안 단계 (Python 3.12.10에서 확인)
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.18.0
+# 노트북 실행
+notebook
+ipykernel

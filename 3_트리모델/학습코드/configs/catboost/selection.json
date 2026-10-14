@@ -1,0 +1,158 @@
+{
+  "short_1h": {
+    "feature_set": "F3",
+    "feature_scores": {
+      "F1": 30.49747001195956,
+      "F2": 16.665223858383,
+      "F3": 15.966839052764751
+    },
+    "candidate": "c02",
+    "params": {
+      "depth": 6,
+      "l2": 10,
+      "rounds": 100,
+      "shrinkage": 0.1,
+      "threads": 4
+    },
+    "Loss_C_july": 15.631891871179416,
+    "RMSE_july": 14.585608903905024,
+    "rounds": 60,
+    "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\short_1h_future_F3_c02\\predictions.npz",
+    "A_control": {
+      "Loss_C_july": 16.953398227491014,
+      "RMSE_july": 15.704416561811957,
+      "rounds": 60,
+      "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\short_1h_future_F3_a_control\\predictions.npz"
+    }
+  },
+  "medium_4h": {
+    "feature_set": "F3",
+    "feature_scores": {
+      "F1": 31.78747426764485,
+      "F2": 20.908424082124263,
+      "F3": 18.64092041391549
+    },
+    "candidate": "c02",
+    "params": {
+      "depth": 6,
+      "l2": 10,
+      "rounds": 100,
+      "shrinkage": 0.1,
+      "threads": 4
+    },
+    "Loss_C_july": 17.96383804481509,
+    "RMSE_july": 17.103581190204743,
+    "rounds": 60,
+    "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\medium_4h_future_F3_c02\\predictions.npz",
+    "A_control": {
+      "Loss_C_july": 19.571590046728584,
+      "RMSE_july": 18.064029500370257,
+      "rounds": 45,
+      "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\medium_4h_future_F3_a_control\\predictions.npz"
+    }
+  },
+  "medium_8h": {
+    "feature_set": "F3",
+    "feature_scores": {
+      "F1": 31.853756391522396,
+      "F2": 22.50602033432505,
+      "F3": 19.54902698561151
+    },
+    "candidate": "c02",
+    "params": {
+      "depth": 6,
+      "l2": 10,
+      "rounds": 100,
+      "shrinkage": 0.1,
+      "threads": 4
+    },
+    "Loss_C_july": 19.500352002085194,
+    "RMSE_july": 18.36050410640428,
+    "rounds": 45,
+    "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\medium_8h_future_F3_c02\\predictions.npz",
+    "A_control": {
+      "Loss_C_july": 21.704557003781744,
+      "RMSE_july": 19.77224433357963,
+      "rounds": 35,
+      "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\medium_8h_future_F3_a_control\\predictions.npz"
+    }
+  },
+  "medium_12h": {
+    "feature_set": "F3",
+    "feature_scores": {
+      "F1": 31.76262893879525,
+      "F2": 23.795066619086555,
+      "F3": 20.21967407512124
+    },
+    "candidate": "c00",
+    "params": {
+      "depth": 4,
+      "l2": 1,
+      "rounds": 100,
+      "shrinkage": 0.1,
+      "threads": 4
+    },
+    "Loss_C_july": 20.21967407512124,
+    "RMSE_july": 18.96900581362315,
+    "rounds": 60,
+    "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\medium_12h_future_F3_c00\\predictions.npz",
+    "A_control": {
+      "Loss_C_july": 23.260950302176553,
+      "RMSE_july": 20.96130896999465,
+      "rounds": 30,
+      "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\medium_12h_future_F3_a_control\\predictions.npz"
+    }
+  },
+  "medium_24h": {
+    "feature_set": "F3",
+    "feature_scores": {
+      "F1": 33.53955984260929,
+      "F2": 26.29384033277743,
+      "F3": 22.11844788433188
+    },
+    "candidate": "c01",
+    "params": {
+      "depth": 3,
+      "l2": 5,
+      "rounds": 100,
+      "shrinkage": 0.1,
+      "threads": 4
+    },
+    "Loss_C_july": 21.697051637810947,
+    "RMSE_july": 20.14512325129338,
+    "rounds": 60,
+    "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\medium_24h_future_F3_c01\\predictions.npz",
+    "A_control": {
+      "Loss_C_july": 24.21665738224308,
+      "RMSE_july": 21.979278115245528,
+      "rounds": 60,
+      "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\medium_24h_future_F3_a_control\\predictions.npz"
+    }
+  },
+  "long_4d": {
+    "feature_set": "F3",
+    "feature_scores": {
+      "F1": 31.034995595736753,
+      "F2": 27.486872833903103,
+      "F3": 26.624279155603055
+    },
+    "candidate": "c01",
+    "params": {
+      "depth": 3,
+      "l2": 5,
+      "rounds": 100,
+      "shrinkage": 0.1,
+      "threads": 4
+    },
+    "Loss_C_july": 24.297331497471976,
+    "RMSE_july": 21.53616556017067,
+    "rounds": 60,
+    "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\long_4d_future_F3_c01\\predictions.npz",
+    "A_control": {
+      "Loss_C_july": 27.01447211418646,
+      "RMSE_july": 23.678789140067142,
+      "rounds": 60,
+      "prediction": "artifacts\\boosting\\m1007_runs\\20261007T090243_KST_m1007_boost\\catboost\\long_4d_future_F3_a_control\\predictions.npz"
+    }
+  }
+}

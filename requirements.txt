@@ -1,0 +1,8 @@
+# 전체실행.ipynb 기본 실행(재학습 끔)에 필요한 패키지. Python 3.12.10에서 확인.
+# 단계별 학습 환경은 requirements/ 폴더를 본다 (트리 학습: requirements_트리.txt, 딥러닝 학습: requirements_딥러닝.txt).
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.18.0
+torch>=2.0        # 딥러닝 --resume 재현용 (CPU 판으로 충분, 확인 버전 2.11.0)
+notebook
+ipykernel
