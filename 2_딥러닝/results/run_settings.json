@@ -1,0 +1,218 @@
+{
+  "settings": {
+    "GROUPS_TO_RUN": [
+      "1h",
+      "4h",
+      "8h",
+      "12h",
+      "24h",
+      "4d"
+    ],
+    "MODELS_TO_RUN": [
+      "RNN",
+      "LSTM",
+      "NHITS"
+    ],
+    "LOSSES_TO_RUN": [
+      "A",
+      "C"
+    ],
+    "GROUPS": {
+      "1h": {
+        "horizon": 4,
+        "train_stride": 1,
+        "eval_stride": 1,
+        "block": 4,
+        "report": {
+          "1h": 4
+        }
+      },
+      "4h": {
+        "horizon": 16,
+        "train_stride": 4,
+        "eval_stride": 4,
+        "block": 4,
+        "report": {
+          "4h": 16
+        }
+      },
+      "8h": {
+        "horizon": 32,
+        "train_stride": 4,
+        "eval_stride": 4,
+        "block": 4,
+        "report": {
+          "8h": 32
+        }
+      },
+      "12h": {
+        "horizon": 48,
+        "train_stride": 4,
+        "eval_stride": 4,
+        "block": 4,
+        "report": {
+          "12h": 48
+        }
+      },
+      "24h": {
+        "horizon": 96,
+        "train_stride": 4,
+        "eval_stride": 4,
+        "block": 4,
+        "report": {
+          "24h": 96
+        }
+      },
+      "4d": {
+        "horizon": 384,
+        "train_stride": 4,
+        "eval_stride": 96,
+        "block": 96,
+        "report": {
+          "4d": 384
+        }
+      }
+    },
+    "GRIDS": {
+      "RNN": {
+        "lookback": [
+          48,
+          24,
+          96
+        ],
+        "hidden": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "lr": [
+          0.001,
+          0.0003
+        ]
+      },
+      "LSTM": {
+        "lookback": [
+          192,
+          384
+        ],
+        "hidden": [
+          32,
+          64,
+          128,
+          256
+        ],
+        "lr": [
+          0.001,
+          0.0003
+        ]
+      },
+      "NHITS": {
+        "lookback": [
+          96,
+          48
+        ],
+        "units": [
+          64,
+          128,
+          256
+        ],
+        "dropout": [
+          0.2,
+          0.4
+        ],
+        "lr": [
+          0.001,
+          0.0003
+        ]
+      }
+    },
+    "GRID_SEARCH": true,
+    "FOLDS": [
+      "2021-07"
+    ],
+    "CONFIRM_MONTHS": [
+      "2021-08"
+    ],
+    "TEST_MONTH": "2021-09",
+    "TRAIN_FIRST_ORIGIN": "2021-01-15",
+    "ES_DAYS": 14,
+    "EVAL_SETS": {
+      "전체": {
+        "copied": true,
+        "prod_fix": true,
+        "outage": true
+      },
+      "복사날제외": {
+        "copied": false,
+        "prod_fix": true,
+        "outage": true
+      }
+    },
+    "SELECT_EVAL": "전체",
+    "CHECK_EVAL": "복사날제외",
+    "SELECT_METRIC": "LossC",
+    "SEED": 42,
+    "SEEDS": [
+      42,
+      43,
+      44
+    ],
+    "BATCH_SIZE": 128,
+    "MAX_EPOCHS": 200,
+    "PATIENCE": 10,
+    "PROBE_SIZE": 1000,
+    "GRAD_CLIP": 1.0,
+    "CVAR_FRACTION": 0.2,
+    "PEAK_FLOOR": 170.0,
+    "PEAK_WEIGHT": {
+      "START": 0.8,
+      "W_MAX": 2.0
+    },
+    "CONDITIONS": {
+      "모름": {
+        "future": [],
+        "dir": "",
+        "label": "미래 정보 모름 (운영 조건)"
+      },
+      "다앎": {
+        "future": [
+          "production",
+          "temp",
+          "humidity",
+          "wind",
+          "rain"
+        ],
+        "dir": "future_known",
+        "label": "미래 정보 다 앎 (실제값 상한)"
+      }
+    },
+    "CONDITIONS_TO_RUN": [
+      "다앎"
+    ],
+    "OUTAGES": [
+      [
+        "2021-08-28 17:30",
+        "2021-08-29 11:15"
+      ],
+      [
+        "2021-09-08 12:00",
+        "2021-09-08 12:15"
+      ]
+    ],
+    "PROD_FIX_DAYS": [
+      "2021-07-13",
+      "2021-07-15"
+    ]
+  },
+  "inputs": {
+    "timeseries_15min_v1_previous_week.csv": "e6f3a3fe88b859d2a3ab949aea0f41ea5af3cfb91627276da0767f53e1a58f47",
+    "train.py": "04425681f44d9523c4f22fb853786dc5e314fadf0e0a6c1549d2cad351697b73",
+    "data.py": "c48cb5a9b096f15fc4861854cffa9959ce8981a19e81963f01c933f53b925723",
+    "peak.py": "720b092cc3e357af970e9026bae5cbcccc7661a68a028e2ea3334cc10cfd6995",
+    "__init__.py": "7880ec0dde2d926caf5f446a91eb8d965c1b37757063e05e304ae42e2b12a141",
+    "lstm.py": "594992729206433948b84ffb7974e96e0fa04ff6954bc5d540b65ee854dfcdd3",
+    "nhits.py": "fa8142d52e2d022b2dd4a768cd78f7f0d2f66fb54dd64a561b4825000d860055",
+    "rnn.py": "10a074045b0bc0c45e2363181a73375f6817735bdec97f326dba3a82e6d2929c"
+  }
+}

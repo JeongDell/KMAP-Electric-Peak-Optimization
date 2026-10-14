@@ -1,0 +1,13 @@
+﻿period,group,구간,A 최고,C 최고,비교 결과
+확인 2021-08,1h,1h,ENSEMBLE A,ENSEMBLE C,"C가 나음 — C 잣대에서 유의하게 낫고, MSE 손해는 유의하지 않음"
+시험 2021-09,1h,1h,ENSEMBLE A,ENSEMBLE C,차이 유의하지 않음
+확인 2021-08,4h,4h,ENSEMBLE A,ENSEMBLE C,"C가 나음 — C 잣대에서 유의하게 낫고, MSE 손해는 유의하지 않음"
+시험 2021-09,4h,4h,ENSEMBLE A,ENSEMBLE C,"C가 나음 — C 잣대에서 유의하게 낫고, MSE 손해는 유의하지 않음"
+확인 2021-08,8h,8h,ENSEMBLE A,ENSEMBLE C,차이 유의하지 않음
+시험 2021-09,8h,8h,ENSEMBLE A,ENSEMBLE C,차이 유의하지 않음
+확인 2021-08,12h,12h,ENSEMBLE A,ENSEMBLE C,차이 유의하지 않음
+시험 2021-09,12h,12h,ENSEMBLE A,ENSEMBLE C,"C가 나음 — C 잣대에서 유의하게 낫고, MSE 손해는 유의하지 않음"
+확인 2021-08,24h,24h,ENSEMBLE A,ENSEMBLE C,차이 유의하지 않음
+시험 2021-09,24h,24h,ENSEMBLE A,ENSEMBLE C,"C가 나음 — C 잣대에서 유의하게 낫고, MSE 손해는 유의하지 않음"
+확인 2021-08,4d,4d,ENSEMBLE A,ENSEMBLE C,차이 유의하지 않음 (표본 적음 — 해석 보류)
+시험 2021-09,4d,4d,ENSEMBLE A,ENSEMBLE C,A가 나음 — C 잣대에서도 A가 유의하게 나음 (표본 적음 — 해석 보류)

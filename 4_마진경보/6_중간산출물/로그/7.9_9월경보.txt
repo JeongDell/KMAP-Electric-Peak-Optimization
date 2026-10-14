@@ -1,0 +1,20 @@
+재가동 주 날짜 ['01/04', '01/07', '01/08', '01/09', '01/11', '02/15', '02/16', '02/17', '02/18', '02/19', '08/09', '08/10', '08/11', '08/12', '08/13']
+기준선 T(7월로만) 0.811
+7월 요금 날 24 | 위험한 날(피크 근처 있음) 17 | 알린 날 17 | 그중 재가동 0 | 피크 날 중 위험 시간으로 잡은 날 14
+8월 요금 날 24 | 위험한 날(피크 근처 있음) 6 | 알린 날 13 | 그중 재가동 5 | 피크 날 중 위험 시간으로 잡은 날 5
+9월 요금 날 11 | 위험한 날(피크 근처 있음) 9 | 알린 날 9 | 그중 재가동 0 | 피크 날 중 위험 시간으로 잡은 날 8
+9월 날별
+                S     위험   달     잡음    재가동     알림   피크잡음
+dday                                                    
+2021-09-01  1.050   True  9월   True  False   True   True
+2021-09-02  0.939   True  9월   True  False   True   True
+2021-09-03  0.885   True  9월   True  False   True   True
+2021-09-04  0.184  False  9월  False  False  False  False
+2021-09-06  0.907   True  9월   True  False   True   True
+2021-09-07  0.923   True  9월   True  False   True   True
+2021-09-08  0.924   True  9월  False  False   True  False
+2021-09-09  0.933   True  9월   True  False   True   True
+2021-09-10  0.919   True  9월   True  False   True   True
+2021-09-11  0.132  False  9월  False  False  False  False
+2021-09-13  0.891   True  9월   True  False   True   True
+9월 위험 시간 칸 적중률 39.8% ( 43 / 108 )

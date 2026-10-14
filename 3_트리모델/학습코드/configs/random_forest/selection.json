@@ -1,0 +1,152 @@
+{
+  "short_1h": {
+    "feature_set": "F2",
+    "candidate": "p2e6d150bf2_c_leaf_d10",
+    "family": "c_leaf_d10",
+    "params": {
+      "n_estimators": 128,
+      "max_depth": null,
+      "max_samples": 0.7,
+      "bootstrap": true,
+      "criterion": "squared_error",
+      "random_state": 42,
+      "n_jobs": 4,
+      "max_features": 0.3333333333333333,
+      "max_leaf_nodes": 64,
+      "min_samples_leaf": 20
+    },
+    "Loss_C_july": 15.04248340586028,
+    "RMSE_july": 13.781035202870392,
+    "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\tune\\cv\\short_1h\\p2e6d150bf2_c_leaf_d10\\m07\\predictions.csv.gz",
+    "A_version": {
+      "Loss_C_july": 16.933111248099866,
+      "RMSE_july": 15.264305015248087,
+      "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\a_version\\short_1h\\predictions.csv.gz"
+    }
+  },
+  "medium_4h": {
+    "feature_set": "F2",
+    "candidate": "p23f355b999_c_leaf_d10",
+    "family": "c_leaf_d10",
+    "params": {
+      "n_estimators": 256,
+      "max_depth": null,
+      "max_samples": 0.7,
+      "bootstrap": true,
+      "criterion": "squared_error",
+      "random_state": 42,
+      "n_jobs": 4,
+      "max_features": 0.5,
+      "max_leaf_nodes": 64,
+      "min_samples_leaf": 10
+    },
+    "Loss_C_july": 16.762842079596282,
+    "RMSE_july": 15.51417135251264,
+    "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\tune\\cv\\medium_4h\\p23f355b999_c_leaf_d10\\m07\\predictions.csv.gz",
+    "A_version": {
+      "Loss_C_july": 18.3818155731989,
+      "RMSE_july": 16.6620333895201,
+      "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\a_version\\medium_4h\\predictions.csv.gz"
+    }
+  },
+  "medium_8h": {
+    "feature_set": "F2",
+    "candidate": "p1c62b57a67_c_leaf_d10",
+    "family": "c_leaf_d10",
+    "params": {
+      "n_estimators": 256,
+      "max_depth": null,
+      "max_samples": null,
+      "bootstrap": true,
+      "criterion": "squared_error",
+      "random_state": 42,
+      "n_jobs": 4,
+      "max_features": 0.5,
+      "max_leaf_nodes": 64,
+      "min_samples_leaf": 20
+    },
+    "Loss_C_july": 18.969557224434105,
+    "RMSE_july": 17.50323842061112,
+    "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\tune\\cv\\medium_8h\\p1c62b57a67_c_leaf_d10\\m07\\predictions.csv.gz",
+    "A_version": {
+      "Loss_C_july": 21.051932426156192,
+      "RMSE_july": 19.066671884902625,
+      "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\a_version\\medium_8h\\predictions.csv.gz"
+    }
+  },
+  "medium_12h": {
+    "feature_set": "F2",
+    "candidate": "p826dad76fe_c_leaf_d10",
+    "family": "c_leaf_d10",
+    "params": {
+      "n_estimators": 64,
+      "max_depth": null,
+      "max_samples": null,
+      "bootstrap": true,
+      "criterion": "squared_error",
+      "random_state": 42,
+      "n_jobs": 4,
+      "max_features": 0.5,
+      "max_leaf_nodes": 64,
+      "min_samples_leaf": 5
+    },
+    "Loss_C_july": 19.73075782244032,
+    "RMSE_july": 18.239805669895063,
+    "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\tune\\cv\\medium_12h\\p826dad76fe_c_leaf_d10\\m07\\predictions.csv.gz",
+    "A_version": {
+      "Loss_C_july": 21.56509286206018,
+      "RMSE_july": 19.53772695667236,
+      "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\a_version\\medium_12h\\predictions.csv.gz"
+    }
+  },
+  "medium_24h": {
+    "feature_set": "F3",
+    "candidate": "p570eab1276_c_leaf_d10",
+    "family": "c_leaf_d10",
+    "params": {
+      "n_estimators": 256,
+      "max_depth": null,
+      "max_samples": 0.7,
+      "bootstrap": true,
+      "criterion": "squared_error",
+      "random_state": 42,
+      "n_jobs": 4,
+      "max_features": 0.3333333333333333,
+      "max_leaf_nodes": 64,
+      "min_samples_leaf": 20
+    },
+    "Loss_C_july": 21.481189890855617,
+    "RMSE_july": 19.54880026694532,
+    "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\tune\\cv\\medium_24h\\p570eab1276_c_leaf_d10\\m07\\predictions.csv.gz",
+    "A_version": {
+      "Loss_C_july": 24.109707154690636,
+      "RMSE_july": 21.56747033503478,
+      "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\a_version\\medium_24h\\predictions.csv.gz"
+    }
+  },
+  "long_4d": {
+    "feature_set": "F3",
+    "candidate": "p2274620e21_c_leaf_d10",
+    "family": "c_leaf_d10",
+    "params": {
+      "n_estimators": 256,
+      "max_depth": null,
+      "max_samples": null,
+      "bootstrap": true,
+      "criterion": "squared_error",
+      "random_state": 42,
+      "n_jobs": 4,
+      "max_features": 0.3333333333333333,
+      "max_leaf_nodes": 32,
+      "min_samples_leaf": 5
+    },
+    "Loss_C_july": 21.487270695127343,
+    "RMSE_july": 19.155725813315154,
+    "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\tune\\cv\\long_4d\\p2274620e21_c_leaf_d10\\m07\\predictions.csv.gz",
+    "A_version": {
+      "Loss_C_july": 24.725832939403507,
+      "RMSE_july": 22.010316952713058,
+      "prediction": "artifacts\\random_forest\\runs\\20261007T081917_KST_f4847a_rf_m1007\\a_version\\long_4d\\predictions.csv.gz"
+    }
+  }
+}
