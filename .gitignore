@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv*/
+venv*/
+
+# OS
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# 데이터 (KAMP 원자료·파생 시계열은 올리지 않음 — README "데이터" 참고)
+src/data/원본/*
+!src/data/원본/README.md
+src/data/외부/*
+!src/data/외부/README.md
+src/1_전처리/3_최종데이터/전처리_*.csv
+src/1_전처리/6_중간산출물/csv/1.[1-7]_*.csv
+src/2_딥러닝/data/*.csv
+src/5_피크분석/3_최종데이터/5.0_피크준비.csv
+src/5_피크분석/6_중간산출물/csv/5.7_재가동곡선.csv
+src/6_방안/6_중간산출물/csv/6.5_예시날.csv
+
+# 실측 전력(y)이 들어 있는 예측 파일
+src/2_딥러닝/test_predictions/
+src/2_딥러닝/results/future_known/test_predictions/
+src/3_트리모델/저장예측/
+src/결과/9월_시험예측/
+
+# Hugging Face에 두는 것: 가중치·저장 예측
+src/2_딥러닝/results/future_known/models/
+src/2_딥러닝/results/future_known/preds/
+*.pt
+*.safetensors
+
+# 실행 시 생기는 것
+src/2_딥러닝/예측_내보내기/
+src/2_딥러닝/results/run_*/

@@ -1,0 +1,4 @@
+Python 3.13.5 (.venv_boosting)
+catboost==1.2.10
+lightgbm==4.7.0
+xgboost==3.4.1

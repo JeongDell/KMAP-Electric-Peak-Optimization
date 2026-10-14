@@ -1,0 +1,78 @@
+{
+  "decision_doc": "docs/meeting_20261007_rerun_plan.md",
+  "s1_features": [
+    "yhat_b_max",
+    "yhat_b_mean",
+    "maxmember_b_max",
+    "spread_b_mean",
+    "latest_b",
+    "max1h_b",
+    "max24h_b",
+    "b",
+    "b170",
+    "day_of_month",
+    "hour",
+    "weekday",
+    "op_ratio",
+    "prod_max",
+    "prevday_zero",
+    "yday_max_b",
+    "recent5_opmax_b",
+    "days_since_b_up",
+    "ramp1h_b",
+    "prev_month_max_b"
+  ],
+  "s1": {
+    "leaves": 7,
+    "child": 50,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  "s2": "0.5*v2 + 0.5*현행잔차",
+  "v2_selection": {
+    "short_1h": {
+      "leaves": 15,
+      "child": 100,
+      "변수": "base",
+      "검증Brier": 0.0033552507082713003
+    },
+    "medium_4h": {
+      "leaves": 15,
+      "child": 50,
+      "변수": "plus",
+      "검증Brier": 0.010171917700543267
+    },
+    "medium_8h": {
+      "leaves": 7,
+      "child": 50,
+      "변수": "base",
+      "검증Brier": 0.018736456474939364
+    },
+    "medium_12h": {
+      "leaves": 15,
+      "child": 20,
+      "변수": "base",
+      "검증Brier": 0.021117417921235893
+    },
+    "medium_24h": {
+      "leaves": 7,
+      "child": 20,
+      "변수": "base",
+      "검증Brier": 0.046183840344379626
+    },
+    "long_4d": {
+      "leaves": 7,
+      "child": 100,
+      "변수": "base",
+      "검증Brier": 0.18055555555555552
+    }
+  },
+  "code": "notebooks\\_shared\\m1007_rare_peak_v3.py",
+  "code_sha256": "d8867980f4680ef36dc2e9785fb259512549f0ff9e64c81fcec966b74d606ba7",
+  "python_executable": "<PROJECT_ROOT>\\.venv_boosting\\Scripts\\python.exe"
+}

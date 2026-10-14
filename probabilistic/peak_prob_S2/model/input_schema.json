@@ -1,0 +1,30 @@
+{
+  "S2": "p = 0.5 × mean_seed(LightGBM v2) + 0.5 × 잔차 분포 기간 확률(ŷ 경로 + *_residual_pool.npz 오차 경로, y > b)",
+  "v2_features_base": [
+    "yhat_b_max",
+    "yhat_b_mean",
+    "maxmember_b_max",
+    "spread_b_mean",
+    "latest_b",
+    "max1h_b",
+    "max24h_b",
+    "b",
+    "b170",
+    "day_of_month",
+    "hour",
+    "weekday",
+    "op_ratio",
+    "prod_max",
+    "prevday_zero"
+  ],
+  "v2_features_plus": [
+    "yday_max_b",
+    "recent5_opmax_b",
+    "days_since_b_up",
+    "ramp1h_b",
+    "prev_month_max_b"
+  ],
+  "단위": "원점 단위, 발행 시점 정보만",
+  "잔차분포": "residual_peak_distribution.ResidualPathDistribution, 풀 = 학습 직전 2달 OOF 오차",
+  "전력모델": "m1007 4모델 단순평균(1~8월 재학습 A판), 경로는 reports/20261007T235513_KST_36f6ca_m1007_residual_prob/sept_members_*_A.csv"
+}
