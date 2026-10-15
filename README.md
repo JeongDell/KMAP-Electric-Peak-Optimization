@@ -11,7 +11,7 @@
 ```bash
 cd src
 
-# 1) 노트북 기본 실행 환경 (Python 3.12에서 확인. torch는 CPU 판으로 충분)
+# 1) 노트북 기본 실행 환경
 python -m pip install -r requirements.txt
 
 # 2) src/ 에서 노트북 실행
